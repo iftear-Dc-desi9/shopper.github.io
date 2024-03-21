@@ -1,0 +1,511 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Poppins';
+}
+.main-space{
+    width: 100%;
+    height: 20vh;
+}
+/*navbar start
+.navbar{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.navbar-nav .other-link a{
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-nav  .other-link a i{
+    font-size: 22px;
+}
+.navbar-nav  .other-link a:hover{
+    color: #5f2c3ec4;
+    transition: 0.3s ease;
+}
+.navbar-nav .nav-item .nav-link {
+    overflow: hidden;
+  }
+  
+  .navbar-nav .nav-item .nav-link a {
+    float: left;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navbar-nav .dropdown{
+    font-size: 17px;  
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav .nav-link a:hover, .dropdown:hover .dropbtn {
+    color: #5f2c3ec4;
+    transition: 0.3s ease;
+  }
+  
+  .navbar-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1111;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #000000cc;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:#c2d2bd;
+    transition: 0.3s ease;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }*/
+
+/*navbar end*/
+.intro-detail a .l-btn{
+    border-radius: 0;
+}
+.intro-detail h2{
+    color: #6b4849;
+}
+/*intro start
+.intro{
+    background-image: url('men-fashion1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.intro-content{
+    height:85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.intro-detail{
+    width: 50%;
+    background-color: #c2d2bdcc;
+    padding: 15px;
+    border-radius: 30px;
+}
+.intro-detail h1{
+    font-size: 50px;
+    color: #5f2c3e;
+    text-align: center;
+    text-transform: uppercase;
+}
+.intro-detail h2{
+    font-size: 40px;
+    color:  #1a1919;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.intro-detail p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.808);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5vh;
+}
+*/
+/*intro end*/
+/*New arrival -1 start
+.new-arrival-1{
+    width: 100%;
+    margin: auto;
+}
+.new-arrival-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+}*/
+.new-arrival-box{
+    background-color: beige;
+    /*margin: 10px;
+    width: 23%;*/
+}
+/*.new-arrival-detail{
+    text-align: center;
+    padding: 5px;
+    line-height: 10px;
+}*/
+.new-arrival-detail p{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.new-arrival-detail span{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.new-image-box{
+    position: relative;
+}
+.new-image-box p{
+    position: absolute;
+    bottom: 30px;
+    left:0px;
+    font-size: 17px;
+    background-color: #6b4849;
+    color: rgba(243, 236, 236, 0.727);
+    padding: 4px 8px;
+    text-transform: uppercase;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*.new-image-box img{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}*/
+/*New arrival -1 start*/
+
+/*short-desc start
+.refund{
+    width: 80%;
+    margin: auto;
+}
+.refund-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.refund-content img{
+    width: 47%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.refund-text{
+    width: 47%;
+    margin: auto;
+    padding: 10px;
+}*/
+.refund-text h4{
+    font-size: 28px;
+    color: #6b4849;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.refund-text p{
+    font-size: 17px;
+    color: rgba(2, 2, 2, 0.788);
+    line-height: 27px;
+}
+/*short-desc end*/
+
+/*style-sec-start
+.style-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}*/
+.style-content .style-img-box{
+   /* width: 47%;
+    margin: auto;
+    padding: 6px;*/
+    position: relative;
+}
+.style-img-box p{
+position: absolute;
+top: 20px;
+left:0px;
+  font-size: 25px;
+  background-color: #c2d2bde8;
+  color: #111111;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.style-img-box button{
+    position: absolute;
+    bottom: 20px;
+    left:0px;
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    padding: 5px 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #c2d2bd;
+    outline: none;
+    font-size: 17px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.style-img-box button:hover{
+    color: #c2d2bd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #5f2c3e;
+    transition: 0.4s ease;
+}
+/*style--sec-end*/
+
+/*offer-sec-start*/
+.offer-sec{
+    background-color: #6b4849;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.offer-sec h4{
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000e0;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    
+}
+.offer-sec p{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fdeef3;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.offer-sec span{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000e3;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+.winter-offer-btn-box button{
+    background-color: black;
+    color: white;
+    padding: 6px 16px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.winter-offer-btn-box button:hover{
+    background-color: #5f2c3e;
+    color: rgba(250, 250, 250, 0.747);
+    transition: 0.4s ease;
+}
+/*offer-sec-start*/
+
+/*fashion-banner-start*/
+.fashion-banner-content{
+    position: relative;
+    /*width: 95%;
+    margin: auto;*/
+}
+.fashion-banner-content img{
+    opacity: 0.8;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.fashion-banner-content .fashion-banner-detail{
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fashion-banner-detail p{
+    /*font-size: 45px;
+    padding-bottom: 15px;*/
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #070707;
+    letter-spacing: 2px;
+}
+.fashion-banner-detail button{
+    background-color: black;
+    color: white; 
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    border-radius: 0;
+    /*font-size: 17px;
+    margin: 10px;
+    padding: 6px 16px;
+    font-weight: 400;*/
+}
+.fashion-banner-detail button:hover{
+    background-color: #5f2c3e;
+    color: rgba(250, 250, 250, 0.747);
+    transition: 0.4s ease;
+}
+/*fashion-banner-end*/
+
+/*newsletter-Start
+.newsletter{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}*/
+.newsletter p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.newsletter-form{
+    width: 90%;
+    margin: auto;
+
+}
+.newsletter-form input[type=email]{
+    /*padding: 5px;
+    width: 50%;*/
+    border: 2px solid #5f2c3e;
+    outline: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgba(2, 2, 2, 0.788);
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.newsletter-form input[type=email]:hover{
+    border: 2px solid #000000;
+}
+.newsletter-form input[type=submit]{
+    background-color: black;
+    color: white;
+    border: 2px solid #000000;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 2px;
+    /*width: 30%;
+    padding: 7px 16px;
+    margin: 10px;*/
+}
+.newsletter-form input[type=submit]:hover{
+    background-color: #5f2c3e;
+    color: rgba(250, 250, 250, 0.747);
+    border: 2px solid #5f2c3e;
+}
+.newsletter .payment-method{
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.808);
+    margin-top: 30px;
+}
+.newsletter .social-icon{
+    font-size: 35px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+/*newsletter-end*/
+/*footer-start*/
+
+.footer-content{
+   /* width: 100%;
+    margin: auto;
+    text-align: center;*/
+    background-color: #e4ddf4;
+}
+/*.footer-text{
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+    padding-top: 20px;
+}*/
+.footer-text a{
+    font-size: 17px;
+    font-weight: 400;
+    /*margin-left: 15px;*/
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.footer-text a:hover{
+    color: rgb(0, 49, 155);
+}
+.footer-content p{
+    font-size: 17px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+/*footer-end*/
+
+
+
+
+
+
+
+
+
+
+
+
